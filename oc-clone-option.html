@@ -1,0 +1,34 @@
+<link rel="import" href="../polymer/polymer.html">
+
+<!--
+`oc-clone-option`
+A component to duplicate options on the Ordercloud platform
+
+@demo demo/index.html 
+-->
+
+<dom-module id="oc-clone-option">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+    </style>
+    <h2>Hello [[prop1]]</h2>
+  </template>
+
+  <script>
+    Polymer({
+
+      is: 'oc-clone-option',
+
+      properties: {
+        prop1: {
+          type: String,
+          value: 'oc-clone-option',
+        },
+      },
+
+    });
+  </script>
+</dom-module>
